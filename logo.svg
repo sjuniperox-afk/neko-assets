@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <!-- Background Circle Clip -->
+    <clipPath id="circleClip">
+      <circle cx="16" cy="16" r="16" />
+    </clipPath>
+  </defs>
+
+  <!-- Background Base -->
+  <circle cx="16" cy="16" r="16" fill="#0d1424" />
+
+  <g clip-path="url(#circleClip)">
+    <!-- Ears (Outer & Inner) -->
+    <!-- Left Ear (Orange) -->
+    <path d="M 5.5 14 L 8 4 L 14.5 11 Z" fill="#f97316" stroke="#c2410c" stroke-width="0.5" stroke-linejoin="round" />
+    <polygon points="7.5,12 8.8,6.5 13,11" fill="#fca5a5" />
+
+    <!-- Right Ear (Dark Slate / Black) -->
+    <path d="M 26.5 14 L 24 4 L 17.5 11 Z" fill="#1e293b" stroke="#0f172a" stroke-width="0.5" stroke-linejoin="round" />
+    <polygon points="24.5,12 23.2,6.5 19,11" fill="#fca5a5" />
+
+    <!-- Main Cat Head (White chubby base) -->
+    <ellipse cx="16" cy="19.5" rx="11.8" ry="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="0.5" />
+
+    <!-- Calico Patches on Face -->
+    <!-- Left Orange Calico Patch -->
+    <path d="M 5 15.5 Q 8 8 13.5 12 Q 9.5 18 5 15.5 Z" fill="#f97316" />
+    <path d="M 12 12 Q 15 10 16 13 Q 14 17 12 12 Z" fill="#ea580c" />
+
+    <!-- Right Dark Slate Calico Patch -->
+    <path d="M 27 15.5 Q 24 8 18.5 12 Q 22.5 18 27 15.5 Z" fill="#1e293b" />
+    <circle cx="21" cy="13" r="1.5" fill="#f97316" />
+
+    <!-- Cheeks & Whisker Dots -->
+    <ellipse cx="10" cy="22" rx="1.5" ry="0.8" fill="#fed7aa" opacity="0.6" />
+    <ellipse cx="22" cy="22" rx="1.5" ry="0.8" fill="#fed7aa" opacity="0.6" />
+
+    <!-- Expressive Eyes -->
+    <!-- Left Eye (Golden Amber) -->
+    <ellipse cx="11.8" cy="17.2" rx="2.4" ry="3.1" fill="#f59e0b" stroke="#d97706" stroke-width="0.3" />
+    <ellipse cx="12" cy="17" rx="1.7" ry="2.2" fill="#0f172a" />
+    <circle cx="11.2" cy="15.8" r="0.9" fill="#ffffff" />
+    <circle cx="12.7" cy="18" r="0.4" fill="#ffffff" />
+
+    <!-- Right Eye (Golden Amber) -->
+    <ellipse cx="20.2" cy="17.2" rx="2.4" ry="3.1" fill="#f59e0b" stroke="#d97706" stroke-width="0.3" />
+    <ellipse cx="20" cy="17" rx="1.7" ry="2.2" fill="#0f172a" />
+    <circle cx="19.4" cy="15.8" r="0.9" fill="#ffffff" />
+    <circle cx="20.9" cy="18" r="0.4" fill="#ffffff" />
+
+    <!-- Nose (Pink Triangle) -->
+    <polygon points="15.2,20.2 16.8,20.2 16,21.1" fill="#f43f5e" />
+
+    <!-- Mouth (Neko Smile) -->
+    <path d="M 14.2 21.8 Q 15.2 22.8 16 21.5 Q 16.8 22.8 17.8 21.8" fill="none" stroke="#475569" stroke-width="0.6" stroke-linecap="round" />
+
+    <!-- Whiskers -->
+    <line x1="6" y1="19" x2="9.5" y2="19.8" stroke="#cbd5e1" stroke-width="0.5" stroke-linecap="round" />
+    <line x1="5.5" y1="21.5" x2="9.2" y2="21.5" stroke="#cbd5e1" stroke-width="0.5" stroke-linecap="round" />
+    <line x1="26" y1="19" x2="22.5" y2="19.8" stroke="#cbd5e1" stroke-width="0.5" stroke-linecap="round" />
+    <line x1="26.5" y1="21.5" x2="22.8" y2="21.5" stroke="#cbd5e1" stroke-width="0.5" stroke-linecap="round" />
+
+    <!-- Red Lucky Collar -->
+    <path d="M 9.5 26.5 Q 16 29.5 22.5 26.5" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Golden Bell / Coin Pendant -->
+    <circle cx="16" cy="28.5" r="2.6" fill="#eab308" stroke="#ca8a04" stroke-width="0.5" />
+    <circle cx="16" cy="28.5" r="1.4" fill="#fef08a" />
+    <line x1="16" y1="27.3" x2="16" y2="29.7" stroke="#ca8a04" stroke-width="0.5" stroke-linecap="round" />
+  </g>
+</svg>
